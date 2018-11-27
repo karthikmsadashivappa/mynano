@@ -1179,6 +1179,13 @@ font-size: 24px;
 	.founder_social {
 		margin: 0;
 	}
+
+	.founder-year{
+		font-size: 8px;
+	}
+	.investor-name {
+		font-size: 9px;
+	}
 }
 
 /*------------------------------Faq------------------------------------*/
