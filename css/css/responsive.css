@@ -748,5 +748,11 @@
 		font-size: 10px;
 		padding: 5px;
 	}
+	.founder-year{
+		line-height: 20px;
+	}
+	.investor-name {
+		font-size: 9px;
+	}
 
 }
