@@ -516,11 +516,19 @@ margin: -3px 10px;
 		text-align: center;
 		padding-top: 30px;
 	}
+
+	.features-slider .owl-dots, .tm-example-slider .owl-dots, .news-slider .owl-dots {
+		margin-top: 20px;
+	}
+
+	#top-featuers_ai, #top-featuers_ux {
+		margin-top: 40px;
+	}
 }
 
-.features-slider .owl-dots {
-	margin-top: 20px;
-}
+
+
+
 
 .card-container {
 	/* background: rgba(0,0,0,0.4); */
@@ -1184,7 +1192,7 @@ font-size: 24px;
 		font-size: 8px;
 	}
 	.investor-name {
-		font-size: 9px;
+		font-size: 7px;
 	}
 }
 
