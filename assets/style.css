@@ -1,0 +1,223 @@
+.bx-wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+.bx-viewport { 
+    height: 250px !important;
+}
+    
+    
+.tm-btn-singup {
+     width: 30%;
+     padding: 10px;
+     letter-spacing: 1px;
+}
+ .tm-btn-plugin {
+     width: auto;
+     padding: 8px 18px;
+     letter-spacing: 1px;
+     line-height: 1;
+     font-size: 16px;
+}
+ .tm-padding-large-top {
+     padding-top: 50px;
+}
+ .tm-icon img, .tm-icon svg {
+     height: auto;
+     width: 100px;
+}
+ .tm-client-logo img, .tm-client-logo svg {
+     max-width: 100%;
+}
+ .tm-client-logo .item {
+     width: 60px !important;
+     padding: 5px 20px;
+     box-sizing: content-box;
+}
+ .tm-item {
+     position: absolute;
+     top: -38px;
+     left: 23px;
+     padding: 10px 15px;
+     background: #18b956;
+     width: auto;
+     font-weight: bold;
+     box-shadow: 0px 5px 2px rgba(0,0,0,0.2);
+     color: #fff;
+     font-weight: 300;
+     border-radius: 2px;
+}
+ .container.welcome-inner {
+     padding-bottom: 60px;
+}
+ .tm-cut {
+     position: relative;
+}
+ .tm-cut:before{
+     content: "";
+     position: absolute;
+     top: 40%;
+     left: 0;
+     right: 0;
+     height: 4px;
+     background: #00aeef;
+}
+ .tm-boxxer .item img {
+     border-radius: 50%;
+}
+ .tm-btn-bg {
+     background-color: #fff;
+     border: 1px solid #fff;
+     color: #00aeef;
+}
+ .tm-btn-bg:hover {
+     background-color: #00aeef;
+     border-color: #00aeef;
+}
+ .tm-margin-top {
+     margin-top: 30px !important;
+}
+ .testimonialscombo {
+}
+ .container.pricing-inner {
+     padding-top: 10px;
+     padding-bottom: 20px;
+}
+ .largescreens {
+     padding-bottom: 30px;
+}
+ .container.how-it-works-inner {
+     padding-top: 10px;
+}
+ .price-table h3 {
+     font-size: 22px;
+}
+ .desc {
+     padding: 10px 0;
+}
+ .pricing-box li {
+     padding: 12px;
+}
+ .pricing-box .price {
+     padding: 12px 0;
+}
+ .tm-d-header {
+     background: #281f33;
+     height: 70px;
+}
+ .tm-d-header .navbar-nav>li>a {
+     line-height: 30px;
+}
+ .tm-d-header .navbar-brand {
+     padding: 0 15px;
+}
+ #basicSlider .MS-content .item {
+     line-height: 20px;
+     text-align: center;
+}
+ .tm-flex-mod {
+     position: relative;
+     padding-top: 150px;
+     display: flex;
+     justify-content: space-around;
+     align-items: flex-end;
+     height: 85vh;
+}
+ .bg-overlay {
+     background: rgba(0, 0, 0, 0.45);
+}
+ .navbar-brand>img {
+     display: block;
+}
+ .navbar-brand>img+img {
+     height: 30px;
+}
+.navbar-brand.logo {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+ .combo1 {
+     color: #FFEB3B;
+}
+ li.tm-active:hover a {
+     color: #fff !important;
+}
+ .team-thumbnail.tm-icon {
+     height: 110px;
+}
+ .container.welcome-inner {
+     padding-top: 18px;
+}
+ .title h2:before, .title:before {
+     content: none;
+}
+ .tm-example-slider {
+     margin-top: 20px;
+}
+ .btn-gradient.blue {
+     background: rgba(102,152,203,1);
+     background: -moz-linear-gradient(top, rgba(102,152,203,1) 0%, rgba(92,138,184,1) 100%);
+     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(102,152,203,1)), color-stop(100%, rgba(92,138,184,1)));
+     background: -webkit-linear-gradient(top, rgba(102,152,203,1) 0%, rgba(92,138,184,1) 100%);
+     background: -o-linear-gradient(top, rgba(102,152,203,1) 0%, rgba(92,138,184,1) 100%);
+     background: -ms-linear-gradient(top, rgba(102,152,203,1) 0%, rgba(92,138,184,1) 100%);
+     background: linear-gradient(to bottom, rgba(102,152,203,1) 0%, rgba(92,138,184,1) 100%);
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6698cb', endColorstr='#5c8ab8', GradientType=0 );
+     color: #fff;
+}
+ .tm-example-slider h4 {
+     color: #fff;
+     text-transform: uppercase;
+}
+
+.pricing-inner h2 {
+  margin: 0px;
+}
+
+.pricing-box:hover {
+  transform: translateY(-2px)!important;
+}
+
+.owl-prev, .owl-next {
+  display: none!important;
+}
+
+ @media only screen and (min-width: 1024px) {
+     .main4thpage {
+         height: auto;
+    }
+     .tm-height-viewport {
+         height: 100vh !important;
+         padding-top: 70px !important;
+    }
+}
+ @media only screen and (min-width: 1024px) {
+     #home header {
+         height: 90vh !important;
+    }
+     .challenge {
+         margin-top: 60px;
+    }
+     .container.welcome-inner {
+         height: 90vh;
+    }
+     #Testimonials {
+         height: 90vh;
+         padding: 30px 0;
+    }
+}
+ @media only screen and (min-width: 768px) {
+     .welcome-section {
+         height: 100vh
+    }
+     .tm-custom-pc {
+         margin-top: -80px;
+    }
+    .owl-stage-outer {
+      padding-bottom: 20px;
+    }
+    .fix-height{
+      margin-top: 2em;
+    }
+}

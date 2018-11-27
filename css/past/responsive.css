@@ -1,0 +1,13 @@
+@media(max-width: 992px) {
+/*	.carousel-inner {
+		min-height: 1030px !important;
+	}
+*/
+	.boxx-item.active .col-md-4 {
+		margin: 8% 0 !important; 
+	}
+
+	.carousel-indicators{
+		bottom:0px !important;
+	}
+}

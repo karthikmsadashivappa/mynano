@@ -1,0 +1,1857 @@
+/* ================================= Responsive CSS ================================= */
+
+/* -----------MIN 1024px  --------------*/
+
+@media only screen and (min-width:1024px) {
+	.container.features-inner {
+		max-height:860px;	
+	}
+	.container.additional-inner{
+		max-height:780px;		
+	}
+	#clientEmail
+	{
+		width: 550px;
+	}
+	#clientEmail_1
+	{
+		width: 400px;
+	}
+	.toptitle:before
+	{
+		margin-top: 59px;
+	}
+	.title h2 {
+    	font-size: 33px;
+	}
+	.intro-text640 h1 {
+		font-size: 42px;
+	}
+	 .modal-content    
+    {
+        height: 300px;width: 300px;
+    }
+    .blast
+    {
+    	width: 50vw; height: 50vh;	
+    }
+    h2.tags
+    {
+       	font-size: 25px;
+        margin-top: 33px;
+    }
+    h2.tags1
+    {
+       font-size: 30px !important;
+    }	
+
+    .divTop
+	{
+		height: 1.2em;
+	    border: .5em solid rgba(255,255,255,.5);
+	    border-bottom: none;
+	    transform: rotate(90deg);
+	}
+  
+  	.divTop, .divTop:after 
+	{
+       	width: 29%;
+    	position: absolute;
+    	margin: auto;
+    	right: 0;
+      	top: 20px;
+    }
+    .divBottom
+    {
+        height: 1.2em;
+        border: .5em solid rgba(255,255,255,.5);
+        border-top: none;
+        transform: rotate(90deg);
+    }
+    .divBottom, .divBottom:after 
+    {
+        width: 29%;
+        position: absolute;
+        margin: auto;
+        left: 0;
+        top:20px;
+    }
+    .kickinfo
+    {
+    	width:85%;margin-right:auto;margin-left:auto;height: 110px;
+    }
+
+
+	.divTop
+
+	{
+		height: 1.2em;
+	    border: .5em solid rgba(255,255,255,.5);
+	    border-bottom: none;
+	    transform: rotate(90deg);
+	}
+	  
+	  .divTop, .divTop:after 
+	{
+       width: 29%;
+	    position: absolute;
+	    margin: auto;
+	    right: 0;
+      top: 20px;
+    }
+    .divBottom
+    {
+        height: 1.2em;
+        border: .5em solid rgba(255,255,255,.5);
+        border-top: none;
+        transform: rotate(90deg);
+    }
+    .divBottom, .divBottom:after 
+    {
+        width: 29%;
+        position: absolute;
+        margin: auto;
+        left: 0;
+        top:20px;
+    }
+
+    .part1kick
+	{width: 15%;float:left}
+	.part2kick
+	{
+	    width: 30%;margin-right:auto;margin-left: auto;float:left !important;text-align: center;
+	}
+	.part3kick
+	{
+	    width: 55%;float:right !important;
+	}
+	.challenge
+	{
+		margin-top:100px;
+	}
+	.intro-text {
+    	color: #fff;
+    	margin-top: 140px !important;
+	}
+	ul.lst-box{
+              position: relative;
+              list-style: none;
+              padding: 0;
+              margin: 0;
+              height: 100px;
+              overflow: hidden;
+              /*background-color: #2b2429;*/
+              line-height: 40px;
+            }
+
+         
+    /* 4th page*/
+    	.main4thpage
+    	{
+    		position: relative;height: 700px;width: 507px;overflow:hidden;
+    	}
+    	#changetext
+    	{
+    		position: absolute;width: 520px;top: 0px;/* left: -84px; */margin-left: auto;margin-right: auto;
+    	}
+
+    	.TemplateImage
+    	{
+    		height: 527px;
+    		width: 507px;
+    	}
+    	.imagesinslider
+    	{
+    		height: 532px;
+    		width: 520px;
+    	}
+    	.onlymobileslider
+    	{
+    		display: none;
+    	}
+    	.pphc
+    	{
+    		margin-bottom: 10px;
+    	}
+    /* end of 4th page*/ 
+
+    /*second page */
+    	.box{
+              width: 90%;
+              height: 53px;
+              margin: 0 auto;
+            }
+
+            li .item
+            {
+                margin-right: 35px; margin-left:35px;
+            }
+    /* end of second page*/    
+
+    /*firstpage*/
+	.hexagon
+	{
+		float:right !important;
+	}
+	.lefthspan
+	{
+		position: absolute; width:2px;height: 100px;left:23px;
+	}
+	.righthspan
+	{
+		position: absolute; width:2px;height: 100px;right:51px;top:0px;
+	}
+	.leftbracket ,.rightbracket
+	{
+		height: 100px;width: 30px;
+	}
+    /* firstpage*/
+
+    .tagline h1
+    {
+
+    	position: absolute;top:30px;font-size: 35px;width:200px;right:72px;
+    }
+
+    .ta
+    {
+        font-size:35px;
+    }
+     s:before {
+	  content: "";
+	  position: absolute;
+	  top: 50%;
+	  left: 0;
+	  right: 0;
+	  height: 4px; /* ADJUST HEIGHT TO ADD WEIGHT */
+	  background: #00aeef; /* CHANGE COLOR TO SUIT */
+	}
+	.revin_mobile
+	{
+		display: none;
+	}
+	h2.tags1 b
+	{
+		font-weight: 400 !important;
+	}
+	.fourty
+	{
+		display: none;
+	}
+
+	#home header
+	{
+		height: 100vh !important;
+	}
+	.arrowclients
+	{
+		top:50%;
+	}
+}
+
+
+/* ---------- MAX 1199px ---------- */
+ @media only screen and (min-width: 991px) and (max-width: 1199px){	
+	.benefits img{
+		max-width:60%;
+	}
+	
+	.TemplateImage
+    	{
+    		height: 527px;
+    		width: 507px;
+    	}
+    	.imagesinslider
+    	{
+    		height: 530px;
+    		width: 700px;
+    	}
+
+    	.onlymobileslider
+    	{
+    		display: none;
+    	}
+    .revin_mobile
+	{
+		display: none;
+	}
+	.arrowclients
+	{
+		top:50%;
+	}
+
+}
+/* ---------- MAX 1024px ---------- */
+@media only screen and (max-width:1024px) {
+	
+	/* Blog */
+	.blog .blog-box img, .blog .effects .img {
+		float:none;
+		width:100%;
+	}
+	.blog .blog-image{
+		text-align:center;
+	}
+	.blog-content{
+		padding:20px 20px 32px;
+	}
+	
+	/* Blog Grid */
+	.blog-grid .blog-social i{
+		margin:0 2px;
+	}
+	.blog-grid .blog-social{
+		padding:10px 5px 0;
+	}
+	/* Blog Timeline */
+	.blog-timeline-event-left:before{
+			right:-42px;
+		}
+	.blog-timeline-event-right:before{
+		left:-30px;
+	}
+	h2.tags {
+    	font-size: 19px;
+	}
+	h2.tags1
+	{
+		font-size: 20px;
+
+	}
+	
+}
+/* ---------- MAX 991PX ---------- */
+@media only screen and (max-width:991px){
+	
+	.toptitle:before {
+    	margin-top: 78px;
+	}
+	.phone-image-right{
+		margin-left:-15%;
+	}
+	
+	#short-code #top-section-sticky-wrapper{
+		height:120px;
+	}	
+	/* Additional Features */
+	
+	.features-border-top .col-md-3:after,
+	.features-border-top .right-border:before{
+		 width: 0px;
+	}
+	.features-border-top{
+		border:0;
+	}
+	
+	
+	/* Video Bg */
+	.video-bg .header{
+		padding:15% 0;
+	}
+	.subscribe .form-horizontal .form-group {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	
+	/* Blog Outer */
+	.blog-outer .blog-inner-bottom .social-title, .blog-outer .blog-inner-bottom .blog-social,  .blog-outer .blog-title{
+		text-align:center;
+	}
+	.blog-status img{
+		width:100%;
+	}	
+	.blog-outer .blog-status ul{
+		text-align:center;
+	}
+	/* Shortcodes */
+	.shortcodes .testimonial .testimonial2-inner .testimonial-content img, .shortcodes .testimonial3-inner .item-img{
+		float:none;
+		text-align:center;
+		margin:10px auto;
+		display:block; 
+	}
+	.shortcodes .carousel .carousel-indicators{
+		bottom:-15px;
+	}
+	.blog-timeline .blog-status .blog-title{
+		border-left:0px;
+	}
+	.arrowclients
+	{
+		top:500px;
+	}
+
+}
+
+/* ---------- MAX 800PX ---------- */
+@media only screen and (max-width:800px){
+
+	/* Blog Timeline */
+	.blog-timeline-event-left:before{
+		right:-38px;
+	}
+	.blog-timeline-event-right:before{
+		left:-26px;
+	}
+
+	 h2.tags
+    {
+       font-size: 18px;
+    }	
+    h2.tags1
+    {
+    	font-size: 18px;
+    }
+    .divTop
+
+	{
+		height: 1.2em;
+	    border: .5em solid rgba(255,255,255,.5);
+	    border-bottom: none;
+	    transform: rotate(90deg);
+	}
+	  
+	  .divTop, .divTop:after 
+	{
+       width: 29%;
+	    position: absolute;
+	    margin: auto;
+	    right: 0;
+      top: 20px;
+    }
+    .divBottom
+    {
+        height: 1.2em;
+        border: .5em solid rgba(255,255,255,.5);
+        border-top: none;
+        transform: rotate(90deg);
+    }
+    .divBottom, .divBottom:after 
+    {
+        width: 29%;
+        position: absolute;
+        margin: auto;
+        left: 0;
+        top:20px;
+    }
+
+
+    .part1kick
+	{width: 20%;float:left}
+	.part2kick
+	{
+	    width: 40%;margin-right:auto;margin-left: auto;float:left !important;text-align: center;
+	}
+	.part3kick
+	{
+	    width: 40%;float:right !important;
+	}
+	.intro-text {
+    	color: #fff;
+    	margin-top: 40px;
+	}
+
+
+	/* clients slider*/
+	li .item {
+	    margin-right: 10px;
+	    margin-left: 10px;
+	}
+	div.box li div {
+    	width: 90px !important;
+	}
+	.box
+	{
+		height: 60px;
+	}
+	/* end of clients slider*/
+
+	/*4th page*/
+
+	.onlymobileslider
+    	{
+    		display: none;
+    	}
+    /*end of 4th opage*/
+
+     /* 4th page*/
+    	.main4thpage
+    	{
+    		position: relative;height: 507px;width: 507px;overflow:hidden;
+    	}
+    	#changetext
+    	{
+    		position: absolute;width: 520px;top: 0px;/* left: -84px; */margin-left: auto;margin-right: auto;
+    	}
+
+    	.TemplateImage
+    	{
+    		height: 381px;
+    		width: 371px;
+    	}
+    	.imagesinslider
+    	{
+    		height: 381px;
+    		width: 544px;
+    	}
+    	.onlymobileslider
+    	{
+    		display: none;
+    	}
+    	.pphc {
+    		height: 120px !important;
+		}
+    /* end of 4th page*/ 	
+
+    /*firstpage*/
+    .lefthspan
+	{
+		position: absolute; width:2px;height: 100px;left:41px;
+	}
+	.righthspan
+	{
+		position: absolute; width:2px;height: 100px;right:52px;top:0px;
+	}
+	.leftbracket ,.rightbracket
+	{
+		height: 70px;width: 19px;
+	}
+	/*end of first page*/
+
+	.tagline h1
+    {
+    	position: absolute;top:30px;font-size: 20px;width:200px;right:45px;
+    }
+
+    div.challenge
+    {
+    	margin-top: 75px;
+    }
+
+    .largescreens
+    {
+    	display: none;
+    }
+    .onlymobileslider
+    	{
+    		display: block;
+    	}
+
+    	s
+    	{
+    		display: none;
+    	}
+
+}
+
+/* ---------- MAX 768PX ---------- */
+@media only screen and (max-width:768px){
+	/* Menu Navbar */
+	.nav > li > a{
+		padding:10px;
+	}
+	.toptitle:before {
+    	margin-top: 59px;;
+	}
+	.title h2 {
+    	font-size: 33px;
+	}
+
+	 img[src="images/magento/ArrowRight.svg"]
+   	{
+   		transform: rotate(90deg);
+   		height: 100px !important;
+   		width:30%;
+   	}
+	
+	.fourty
+	{
+		display: initial;
+	}
+	.hexagon
+	{
+		display: none;
+	}
+	.ta
+	{
+		display: none;
+	}
+
+
+}
+
+/* ---------- MIN 767PX ---------- */
+@media only screen and (min-width:767px) {
+	
+}
+
+/* ---------- MAX 767PX ---------- */
+@media only screen and (max-width:767px) {
+	/* Navbar */
+	.intro-text h1{
+		/*padding-top:40px;*/
+	}
+	.title h2 {
+    	font-size: 35px;
+	}
+
+	header .navbar-nav > li > a{
+		padding:0px 15px;
+		line-height:45px;
+	}
+	header .dropdown-menu > li > a{
+		padding:7px 15px 7px 25px
+	}
+	.welcome-section ul {
+		margin-top: 10px;
+	}
+	/* Purchase Now Button*/
+	.purchase-button h2{
+		text-align:center;
+	}
+	.purchase-button .slide-btn{
+		margin:0 auto;
+	}
+
+	/* Counting */
+	.counting i, .counting .factor{
+		padding-bottom:5%;
+	}
+	
+	/* Copyright */
+	.copyright h4, .copyright-social-icon{
+		text-align:center;
+		padding:10px 0px;
+	}
+	/* Portfolio */
+	.five, .five-big{
+		width: 50%;
+	}
+	/* Disable Animations */
+	.animated {
+		visibility: visible !important;
+	  	-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	/* Blog Grid Page */
+	.blog-grid .grid-posts{
+		width:100%;
+	}
+	/* Blog Timeline */
+	.blog-timeline-event-left, .blog-timeline-event-right {
+		padding:0px;
+		margin-left:0;
+		width:100%;
+	}
+	.blog-timeline-right{
+		padding-top:0px;
+	}
+	.blog-timeline-event-left:before, .blog-timeline-event:after, .blog-timeline-event-right:before{
+		display:none;
+	}
+	.blog-timeline-left{
+		border:0px;
+	}
+	
+	.video_bg{
+		margin: 0 auto -30px;
+		max-width: 640px;
+		padding: 27px 0 51px;
+		position: relative;
+		z-index: 10;
+	}
+	
+	.video_bg iframe{
+		max-width: 497px;
+		padding-top: 21px;
+		width: 100%;
+		border: medium none;
+	}		
+	.intro-text .form-control-feedback{
+		right: 0px !important;
+	}
+	.divTop
+	{
+		height: 1.2em;
+	    border: .3em solid rgba(255,255,255,.5);
+	    border-bottom: none;
+	    transform: rotate(90deg);
+	}
+	  
+	.divTop, .divTop:after 
+	{
+       	width: 41%;
+	    position: absolute;
+	    margin: auto;
+	    right: 0;
+      	top: 20px;
+    }
+    .divBottom
+    {
+        height: 1.2em;
+        border: .3em solid rgba(255,255,255,.5);
+        border-top: none;
+        transform: rotate(90deg);
+    }
+    .divBottom, .divBottom:after 
+    {
+        width: 41%;
+        position: absolute;
+        margin: auto;
+        left: 0;
+        top:20px;
+    }
+
+    img[src="images/magento/ArrowRight.svg"]
+   	{
+   		transform: rotate(90deg);
+   		height: 100px !important;
+   		width:30%;
+   	}
+   	.hexagon
+   	{
+   		display: none;
+   	}
+   	.ta
+   	{
+   		display: none;
+   	}
+   	s
+   	{display: none;}
+   	.fourty
+   	{
+   		display: initial;
+   	}
+   	.revin_mobile
+	{
+		display: initial;
+	}
+
+}
+/* ---------- MAX 640PX ---------- */
+@media only screen and (max-width:640px) {
+	/* Feature */
+	.container.features-inner{
+		padding:60px 50px;
+	}
+	/* Portfolio */
+	#portfolio li{
+		margin:20px 0;
+	}	
+	.video_bg {
+		background:none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.divTop
+	{
+		height: 1.2em;
+	    border: .3em solid rgba(255,255,255,.5);
+	    border-bottom: none;
+	    transform: rotate(90deg);
+	}
+	  
+	.divTop, .divTop:after 
+	{
+       	width: 41%;
+	    position: absolute;
+	    margin: auto;
+	    right: 0;
+      	top: 20px;
+    }
+    .divBottom
+    {
+        height: 1.2em;
+        border: .3em solid rgba(255,255,255,.5);
+        border-top: none;
+        transform: rotate(90deg);
+    }
+    .divBottom, .divBottom:after 
+    {
+        width: 41%;
+        position: absolute;
+        margin: auto;
+        left: 0;
+        top:20px;
+    }
+    img[src="images/magento/ArrowRight.svg"]
+   	{
+   		transform: rotate(90deg);
+   		height: 100px !important;
+   		width:30%;
+   	}
+   	.hexagon
+   	{
+   		display: none;
+   	}
+   	.btn-lg {
+    	padding: 6px 5px !important;
+	}
+	.modal-content    
+    {
+
+        height: 250px;width: 250px;
+    }	
+}
+
+
+
+/* ---------- MAX 580PX ---------- */
+@media only screen and (max-width:580px) {
+	.col-xs-6{
+		width:100%;
+	}
+	h2.tags
+    {
+       font-size: 15px;
+       text-align: center !important;
+    }	
+    .ta
+    {
+        font-size:14px;
+    }
+    h2.tags1
+    {
+    	font-size: 15px
+    }
+    .divTop
+	{
+		height: 1.2em;
+	    border: .3em solid rgba(255,255,255,.5);
+	    border-bottom: none;
+	    transform: rotate(90deg);
+	}
+	  
+	.divTop, .divTop:after 
+	{
+       	width: 41%;
+	    position: absolute;
+	    margin: auto;
+	    right: 0;
+      	top: 20px;
+    }
+    .divBottom
+    {
+        height: 1.2em;
+        border: .3em solid rgba(255,255,255,.5);
+        border-top: none;
+        transform: rotate(90deg);
+    }
+    .divBottom, .divBottom:after 
+    {
+        width: 41%;
+        position: absolute;
+        margin: auto;
+        left: 0;
+        top:20px;
+    }
+
+
+    /* customers*/
+     div.parent 
+    {
+    	height: 220px;
+    }
+    /* customers*/
+
+    img[src="images/magento/ArrowRight.svg"]
+   	{
+   		transform: rotate(90deg);
+   		height: 100px !important;
+   		width:30%;
+   	}
+   	.banner-video-wrapper
+   	{
+   		display: none;
+   	}
+   	#header
+   	{
+   		background: url(../images/magento/Phoneimage.png)  no-repeat center center fixed;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	    height: 100%;
+	    overflow: hidden;
+   	}
+   	a.navbar-brand
+   	{
+   		padding:0px 15px;
+   	}
+   	header .navbar-collapse.collapse.in {
+    background-color: rgb(0, 0, 0) !important;
+	}
+
+	.title1 h2.cw
+	{
+		font-size: 22px !important;
+	}
+
+	#tryForfree_1
+	{
+		margin-top: 20px;
+	}
+}
+
+
+/* ---------- MAX 480PX ---------- */
+@media only screen and (max-width:480px) {
+	.toptitle:before
+	{
+		margin-top: 59px;
+	}
+	.benefits img{
+		max-width:60%;
+	}
+	.title h2:before,
+	.title:before{
+		display:none;
+	}
+	/* Feature */
+	.container.features-inner{
+		padding:60px 30px;
+	}		
+	/* Video Bg */
+	.video-bg .header{
+		padding:30% 0;
+	}	
+	/* About Us */
+	.about-us i{
+		float:none;
+		text-align:center;
+		display:block;
+		margin:10px auto;
+	}
+	.download-now .btn {
+		margin: 7px 5px;
+	}
+	.form-control-lg{
+		font-size:14px;
+	}
+	.blog .blog-scroll-section .effects .img{
+		margin:0px auto;
+		left:0px;
+		right:0px;
+	}
+	.blog-content{
+		margin-left:0;
+		margin-top:100px;
+	}
+	h2.tags
+    {
+       	font-size: 15px;
+       	text-align: center !important;
+    }
+    h2.tags1
+    {
+    	font-size: 15px;
+    }
+    .divTop
+
+	{
+	height: 1.2em;
+	    border: .3em solid rgba(255,255,255,.5);
+	    border-bottom: none;
+	    transform: rotate(90deg);
+	}
+	  
+	  .divTop, .divTop:after 
+	{
+       width: 41%;
+	    position: absolute;
+	    margin: auto;
+	    right: 0;
+      top: 20px;
+    }
+    .divBottom
+    {
+        height: 1.2em;
+        border: .3em solid rgba(255,255,255,.5);
+        border-top: none;
+        transform: rotate(90deg);
+    }
+    .divBottom, .divBottom:after 
+    {
+        width: 41%;
+        position: absolute;
+        margin: auto;
+        left: 0;
+        top:20px;
+    }	
+    /* customers*/
+     div.parent 
+    {
+    	height: 220px;
+    }
+    /* customers*/
+    /*first page*/
+
+    .lefthspan
+	{
+		position: absolute; width:2px;height: 100px;left:83px;
+	}
+	.leftbracket ,.rightbracket
+	{
+		height: 56px;width: 19px;	}
+
+	.righthspan
+	{
+		position: absolute; width:2px;height: 100px;right:102px;top:0px;
+	}
+    /* firstpage*/
+
+
+    .largescreens
+    {
+    	display: none;
+    }
+    .onlymobileslider
+    	{
+    		display: block;
+    	}
+    	.main4thpage
+    	{
+    		position: relative;height: 286px;width: 364px;overflow:hidden;
+    		margin-left: auto;
+    		margin-right: auto;
+    	}
+    .imagesinslider {
+	    height: 381px;
+	    width: 381px;
+	}
+
+   /* testimonials*/
+   
+   #Testimonials
+   {
+   	    min-height: 1200px;
+   } 	
+
+   img[src="images/magento/ArrowRight.svg"]
+   {
+   		transform: rotate(90deg);
+   		height: 100px !important;
+   		width:30%;
+   }
+
+   .tagline h1
+    {
+    	font-size: 17px;
+	    width: 200px;
+	    right: -4px;
+    }
+    s:before {
+	  content: "";
+	  position: absolute;
+	  top: 50%;
+	  left: 0;
+	  right: 0;
+	  height: 2px; /* ADJUST HEIGHT TO ADD WEIGHT */
+	  background: #00aeef; /* CHANGE COLOR TO SUIT */
+	}	
+	.challenge
+	{
+		margin-top: 30px;
+		text-align: center !important;
+	}
+
+	.kickinfo
+    {
+    	width:100%;margin-right:auto;margin-left:auto;height: 110px;
+    }
+     .part1kick
+	{width: 100%;float:left}
+	.part2kick
+	{
+	    width: 100%;margin-right:auto;margin-left: auto;float:left !important;text-align: center;
+	}
+	.part3kick
+	{
+	    width: 100%;float:right !important;
+	}
+
+	header .navbar-collapse.collapse.in {
+    background-color: rgb(0, 0, 0) !important;
+    z-index: 99;
+	}
+	.title1 h2.cw
+	{
+		font-size: 22px !important;
+	}
+	.dmimgheight
+	{
+		height:375px;
+	}
+	.arrowclients
+	{
+		top:475px;
+	}
+	video
+  	{
+  		display: none;
+  	}
+	#header
+   	{
+   		background: url(../images/magento/Phoneimage.png)  no-repeat center center fixed;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	    height: 100%;
+	    overflow: hidden;
+   	}
+   	.modal-content    
+    {
+
+        height: 250px;width: 250px;
+    }	
+
+}
+
+/* ---------- MAX 360PX ---------- */
+@media only screen and (max-width:360px) {
+	/* Feature */
+	.container.features-inner{
+		padding:60px 15px;
+	}
+	/* Global */
+	.title{
+		font-size:40px;
+	}
+	/* Portfolio */	
+	.five, .five-big{
+		width:100%;
+	}
+	.portfolio-items .work .work-inner-big, .work-image a, .work-image, .work-image a img{
+		height:230px;
+	}
+	#mobileslider img{
+		width:300px;
+	}
+	.welcome-section .pull-right{
+		float:none !important;
+	}
+	.welcome-section i {
+		margin-bottom:10px;
+	}
+	.title h2 {
+    	font-size: 23px;
+
+	}
+	.intro-text h1 {
+		font-size: 25px;
+	}
+	 h2.tags
+    {
+       font-size: 15px;
+       	text-align: center !important;
+    }	
+    h2.tags1
+    {
+    	font-size: 15px;
+    }
+    /* customers*/
+     div.parent 
+    {
+    	height: 160px;
+    }
+    /* customers*/
+
+     /*firstpage*/
+	.lefthspan
+	{
+
+		position: absolute; width: 2px;
+    	height: 100px;
+    	left: 70px;
+	}
+	.leftbracket ,.rightbracket
+	{
+		height: 55px;width: 19px;	}
+
+	.righthspan
+	{
+		position: absolute; width: 2px;
+	    height: 100px;
+	    right: 88px;
+	    top: 0;
+	}
+    /* firstpage*/
+ 
+
+    .challenge
+    {
+    	text-align: center !important;
+    }
+
+    .tagline h1
+    {
+    	position: absolute;top:30px;font-size: 17px;width:200px;right:-7px;
+    }
+    img[src="images/magento/ArrowRight.svg"]
+   	{
+   		transform: rotate(90deg);
+   		height: 100px !important;
+   		width:30%;
+   	}
+   	s:before {
+	  content: "";
+	  position: absolute;
+	  top: 50%;
+	  left: 0;
+	  right: 0;
+	  height: 2px; /* ADJUST HEIGHT TO ADD WEIGHT */
+	  background: #00aeef; /* CHANGE COLOR TO SUIT */
+	}
+
+	header .navbar-collapse.collapse.in {
+    background-color: rgb(0, 0, 0) !important;
+    z-index: 99;
+	}
+	.title1 h2.cw
+	{
+		font-size: 22px !important;
+	}
+	#tryForfree_1
+	{
+		margin-top: 20px;
+	}
+
+	#header
+   	{
+   		background: url(../images/magento/Phoneimage.png)  no-repeat center center fixed;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	    height: 100%;
+	    overflow: hidden;
+   	}
+   	video
+  	{
+  		display: none;
+  	}
+
+  	.modal-content    
+    {
+
+        height: 250px;width: 250px;
+    }	
+
+}
+/* ---------- MAX 320PX ---------- */
+@media only screen and (max-width:320px) {					
+	/* Blog Outer Sidebar */
+	.sidebar-facebook .facebook-inner{
+		padding:10px;
+	}	
+	.toptitle:before {
+    	margin-top: 78px;
+	}
+	.title h2 {
+    	font-size: 23px;
+
+	}
+	.intro-text h1 {
+		font-size: 25px;
+	}
+
+	.modal-content    
+    {
+
+        height: 250px;width: 250px;
+    }	
+
+    .blast
+    {
+    	width: 78vw !important; height: 70vh !important ;
+    }
+     h2.tags
+    {
+       font-size: 15px;
+    }	
+    h2.tags1
+    {
+    	font-size: 15px;
+    }
+    .ta
+    {
+        font-size:14px;
+    }
+    .kickinfo
+    {
+    	width:100%;margin-right:auto;margin-left:auto;height: 110px;
+    }
+     .part1kick
+	{width: 100%;float:left}
+	.part2kick
+	{
+	    width: 100%;margin-right:auto;margin-left: auto;float:left !important;text-align: center;
+	}
+	.part3kick
+	{
+	    width: 100%;float:right !important;
+	}
+	.topmainpart
+	{
+		padding-right: 0px;
+		padding-left:0px;
+	}
+	.intro-text {
+    	color: #fff;
+    	margin-top: 5px;
+	}
+	
+
+      /* 4th page*/
+    	.main4thpage
+    	{
+    		position: relative;height:auto;width: 263px;overflow:hidden;    margin-right: auto; margin-left: auto;
+    	}
+    	#changetext
+    	{
+    		position: absolute;width:314px;top: 0px;/* left: -84px; */margin-left: auto;margin-right: auto;
+    	}
+    	.TemplateImage
+    	{
+    		/*height: 242px;
+    		width: 273px;*/
+    		height: 266px;
+    		width: 266px;
+    	}
+    	.imagesinslider
+    	{
+
+    		/*height: 241px;
+    		width: 273px;*/
+    		height: 268px;
+    		width: 273px;
+    	}
+
+    	#pdp , #plp, #hometemplate , #cart
+    	{
+    		display: block;
+    	}
+    	.slidersideimages
+    	{
+    		display: none;
+    	}
+    	.largescreens
+    	{
+    		display: none;
+    	}
+    	.onlymobileslider
+    	{
+    		display: block;
+    	}
+
+    /* end of 4th page*/
+
+
+
+    /* second page*/
+    	li .item
+            {
+                margin-right: 10px; margin-left:10px;
+            }
+
+            /* customers*/
+	 div.parent 
+    {
+    	height: 170px;
+    }
+    .lst-box
+    {
+    	list-style: none;
+    }
+    /* customers*/
+    /* end of second page*/
+
+    .challenge
+    {
+    	text-align: center !important;
+    }
+
+    .tagline h1
+    {
+    	position: absolute;
+	    top: 17px;
+	    font-size: 17px;
+	    width: 200px;
+	    right: -40px;
+    }
+    img[src="images/magento/ArrowRight.svg"]
+   	{
+   		transform: rotate(90deg);
+   		height: 100px !important;
+   		width:30%;
+   	}
+
+   	header .navbar-collapse.collapse.in {
+    background-color: rgb(0, 0, 0) !important;
+    z-index: 99;
+	}
+	#tryForfree_1
+	{
+		margin-top: 20px;
+	}
+
+	.dmimgheight
+	{
+		height:auto;
+	}
+	#header
+   	{
+   		background: url(../images/magento/Phoneimage.png)  no-repeat center center fixed;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	    height: 100%;
+	    overflow: hidden;
+   	}
+   	video
+  	{
+  		display: none;
+  	}
+}
+@media only screen and (min-width:360px) and (max-width:400px) {					
+	/* Blog Outer Sidebar */
+	.toptitle:before {
+    	    margin-top: 78px;
+	}
+	.modal-content    
+    {
+        height: 250px;width: 250px;
+    }	
+    .blast
+    {
+    	width: 70vw !important; height: 70vh !important;
+    }
+     h2.tags
+    {
+       font-size: 15px;
+       	text-align: center !important;
+    }
+    h2.tags1
+    {
+    	font-size: 15px;
+    }
+    .divTop
+	{
+	height: 1.2em;
+	    border: .3em solid rgba(255,255,255,.5);
+	    border-bottom: none;
+	    transform: rotate(90deg);
+	}
+  
+  	.divTop, .divTop:after 
+	{
+       	width: 41%;
+    	position: absolute;
+    	margin: auto;
+    	right: 0;
+      	top: 20px;
+    }
+    .divBottom
+    {
+        height: 1.2em;
+        border: .3em solid rgba(255,255,255,.5);
+        border-top: none;
+        transform: rotate(90deg);
+    }
+    .divBottom, .divBottom:after 
+    {
+        width: 41%;
+        position: absolute;
+        margin: auto;
+        left: 0;
+        top:20px;
+    }	
+    .kickinfo
+    {
+    	width:100%;margin-right:auto;margin-left:auto;height: 110px;
+    }
+
+    .divTop
+
+	{
+		height: 1.2em;
+	    border: .3em solid rgba(255,255,255,.5);
+	    border-bottom: none;
+	    transform: rotate(90deg);
+	}
+	  
+	  .divTop, .divTop:after 
+	{
+       width: 41%;
+	    position: absolute;
+	    margin: auto;
+	    right: 0;
+      top: 20px;
+    }
+    .divBottom
+    {
+        height: 1.2em;
+        border: .3em solid rgba(255,255,255,.5);
+        border-top: none;
+        transform: rotate(90deg);
+    }
+    .divBottom, .divBottom:after 
+    {
+        width: 41%;
+        position: absolute;
+        margin: auto;
+        left: 0;
+        top:20px;
+    }
+
+    .part1kick
+	{width: 100%;float:left}
+	.part2kick
+	{
+	    width: 100%;margin-right:auto;margin-left: auto;float:left !important;text-align: center;
+	}
+	.part3kick
+	{
+	    width: 100%;float:right !important;
+	}
+	.intro-text {
+    	color: #fff;
+    	margin-top: 5px;
+	}
+	ul.lst-box{
+              position: relative;
+              list-style: none;
+              padding: 0;
+              margin: 0;
+              height: auto;
+              overflow: hidden;
+              /*background-color: #2b2429;*/
+              line-height: 40px;
+            }
+
+    /* customers*/
+    div.parent 
+    {
+    	height: 290px;
+    }   
+    /* customers*/    
+
+
+    /* 4th page*/
+    	.main4thpage
+    	{
+    		position: relative;height: 286px;width: 357px;/*263px;*/overflow:hidden;
+    		margin-left: auto;
+    		margin-right: auto;
+    	}
+    	#changetext
+    	{
+    		position: absolute;width:366px;/*width:314px;*/top: 0px;/* left: -84px; */margin-left: auto;margin-right: auto;
+    	}
+    	.TemplateImage
+    	{
+    		/*height: 321px;
+    		width: 262px;*/
+    		height: 381px;
+    		width: 371px;	
+
+    	}
+    	.imagesinslider
+    	{
+    		/*height: 322px;
+    		width: 273px;*/
+    		height: 378px;
+    		width: 371px;
+    	}
+
+    	#pdp , #plp, #hometemplate , #cart
+    	{
+    		display: block;
+    	}
+    	.slidersideimages
+    	{
+    		display: none;
+    	}
+
+    /* end of 4th page*/ 
+
+    .challenge
+    {
+    	text-align: center !important;
+    }
+    img[src="images/magento/ArrowRight.svg"]
+   	{
+   		transform: rotate(90deg);
+   		height: 100px !important;
+   		width:30%;
+   	}
+   	.lefthspan
+	{
+		position: absolute; width:2px;height: 100px;left:83px;
+	}
+	.leftbracket ,.rightbracket
+	{
+		height: 56px;width: 19px;	}
+
+	.righthspan
+	{
+		position: absolute; width:2px;height: 100px;right:102px;top:0px;
+	}
+	.tagline h1
+	{
+		font-size: 17px;
+	    width: 200px;
+	    right: -28px;
+
+	}
+	#tryForfree_1
+	{
+		margin-top: 20px;
+	}
+	.dmimgheight
+	{
+		height:375px;
+	}
+
+	video
+  	{
+  		display: none;
+  	}
+
+	#header
+   	{
+   		background: url(../images/magento/Phoneimage.png)  no-repeat center center fixed;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	    height: 100%;
+	    overflow: hidden;
+   	}
+
+}
+
+@media only screen and (min-device-width: 360px) 
+                   and (max-device-width: 750px) 
+                   and (orientation: landscape) {
+
+    img[src="images/magento/ArrowRight.svg"]
+   	{
+   		transform: rotate(90deg);
+   		height: 100px !important;
+   		width:30%;
+   	}
+   	.title:before {
+	    width: 0px;
+	    height: 0px; 
+	}
+	.title:before
+	{
+		background-color: none;
+	}
+}
+
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 480px) 
+  and (device-height: 800px) {
+  	img[src="images/magento/ArrowRight.svg"]
+   	{
+   		transform: rotate(90deg);
+   		height: 100px !important;
+   		width:30%;
+   	}
+   	.title:before {
+	    width: 0px;
+	    height: 0px; 
+	}
+	.title:before
+	{
+		background-color: none;
+	}
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 480px) 
+  and (device-height: 800px)  
+  and (orientation: portrait) {
+  	 img[src="images/magento/ArrowRight.svg"]
+   	{
+   		transform: rotate(90deg);
+   		height: 100px !important;
+   		width:30%;
+   	}
+   	.title:before {
+	    width: 0px;
+	    height: 0px; 
+	}
+	.title:before
+	{
+		background-color: none;
+	}
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 480px) 
+  and (device-height: 800px) 
+  and (orientation: landscape) {
+  	 img[src="images/magento/ArrowRight.svg"]
+   	{
+   		transform: rotate(90deg);
+   		height: 100px !important;
+   		width:30%;
+   	}
+   	.title:before {
+	    width: 0px;
+	    height: 0px; 
+	}
+	.title:before
+	{
+		background-color: none;
+	}
+}
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+  	img[src="images/magento/ArrowRight.svg"]
+   	{
+   		transform: rotate(90deg);
+   		height: 100px !important;
+   		width:30%;
+   	}
+   	.title:before {
+	    width: 0px;
+	    height: 0px; 
+	}
+	.title:before
+	{
+		background-color: none;
+	}
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+  	img[src="images/magento/ArrowRight.svg"]
+   	{
+   		transform: rotate(90deg);
+   		height: 100px !important;
+   		width:30%;
+   	}
+   	.title:before {
+	    width: 0px;
+	    height: 0px; 
+	}
+	.title:before
+	{
+		background-color: none;
+	}
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+  	img[src="images/magento/ArrowRight.svg"]
+   	{
+   		transform: rotate(90deg);
+   		height: 100px !important;
+   		width:30%;
+   	}
+   	.title:before {
+	    width: 0px;
+	    height: 0px; 
+	}
+	.title:before
+	{
+		background-color: none;
+	}
+}
+
+
+
+@media only screen and (orientation:landscape)and (max-width: 900px){
+  .challenge {  
+     text-align: center !important;
+  }
+  .navbar-brand
+  {
+  	padding: 0px 15px !important;
+  }
+  .tagline h1
+  {
+  	/*top:40px;*/
+  }
+  video
+  {
+  	display: none;
+  }
+  	#header
+   	{
+   		background: url(../images/magento/Phoneimage.png)  no-repeat center center fixed;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	    height: auto !important;
+	    overflow: hidden;
+   	}
+   	.hexagon
+   	{
+   		display: none;
+   	}
+ 	.ta
+ 	{
+ 		display: none;
+ 	}
+ 	.intro-text
+ 	{
+ 		margin-top: 0px;
+ 	}
+ 	header .navbar-collapse.collapse.in {
+    	background-color: rgb(0, 0, 0) !important;
+    	z-index: 99;
+	}
+	.title h2:before ,.title:before {
+	    width: 0px !important;
+	    height: 0px !important; 
+	}
+	.title:before
+	{
+		background-color: none!important;
+	}
+}
+
+
+
+@media only screen and (orientation:landscape)
+{
+	.title h2:before, .title:before {
+	    width: 0px !important;
+	    height: 0px !important; 
+	}
+	.title h2:before
+	{
+		background-color: none !important ;
+	}
+
+}
+
+
