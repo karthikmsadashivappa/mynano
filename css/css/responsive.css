@@ -754,5 +754,13 @@
 	.investor-name {
 		font-size: 9px;
 	}
+	.boxx1, .boxx3 {
+		grid-column: 12;
+	}
+
+	.boxx2 {
+		grid-column: 28;
+	}
+
 
 }
