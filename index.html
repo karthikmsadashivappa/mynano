@@ -2312,13 +2312,6 @@
             $(document).ready(function(){
                 $("#navigation-sticky-wrapper").addClass("is-sticky");
 
-                $('#myvideo').on('loadstart', function (event) {
-    $(this).addClass('loading');
-  });
-  $('#myvideo').on('canplay', function (event) {
-    $(this).removeClass('loading');
-    $(this).attr('poster', '');
-  });
 
                 /*owl slider*/
                 $('.tm-example-slider').owlCarousel({

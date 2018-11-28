@@ -127,9 +127,11 @@
      background: rgba(0, 0, 0, 0.45);
 }
 
-video.loading {
-	background: url(../assets/images/bgoverlay.png) center center no-repeat;
-  }
+  video {
+    background-image: url(../assets/images/bgoverlay.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    }
 
  .navbar-brand>img {
      display: block;
