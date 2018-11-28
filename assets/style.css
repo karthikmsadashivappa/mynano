@@ -131,6 +131,7 @@
     background-image: url(../assets/images/bgoverlay.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: top;
     }
 
  .navbar-brand>img {
