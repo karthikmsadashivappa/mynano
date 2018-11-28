@@ -1194,6 +1194,17 @@ font-size: 24px;
 	.investor-name {
 		font-size: 7px;
 	}
+	#top-featuers_ux {
+		border-bottom: 1px solid #7f7c97;
+	}
+	#user-stories {
+		border-top: 1px solid #7f7c97;
+		padding: 0;
+		margin: 0;
+	}
+	#faq {
+		height: 540px;
+	}
 }
 
 /*------------------------------Faq------------------------------------*/
