@@ -127,6 +127,10 @@
      background: rgba(0, 0, 0, 0.45);
 }
 
+video.loading {
+	background: url(../assets/images/bgoverlay.png) center center no-repeat;
+  }
+
  .navbar-brand>img {
      display: block;
 }

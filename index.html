@@ -985,7 +985,7 @@
                                           <div class="testimonial-wrapper">
                                           <div class="founder-img">
                                               <img src="assets/images/guru.png" class="img-fluid">
-                                                <h3 class="founder-name">Gurupreet Khokar</h3>
+                                                <h3 class="founder-name">Gurpreet Khokar</h3>
                                               <p class="founder-position">Manager - Digital</p> 
                                           </div>
                                           <span class="line-break"></span>
@@ -2311,6 +2311,14 @@
         <script type="text/javascript">
             $(document).ready(function(){
                 $("#navigation-sticky-wrapper").addClass("is-sticky");
+
+                $('#myvideo').on('loadstart', function (event) {
+    $(this).addClass('loading');
+  });
+  $('#video_id').on('canplay', function (event) {
+    $(this).removeClass('loading');
+    $(this).attr('poster', '');
+  });
 
                 /*owl slider*/
                 $('.tm-example-slider').owlCarousel({
