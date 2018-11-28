@@ -1122,7 +1122,7 @@ font-size: 24px;
 @media (max-width: 600px) {
 	.team-container {
 		grid-template-columns: repeat(24, 1fr);
-		grid-auto-rows: 19vw;
+		grid-auto-rows: 20vw;
 		width: 90%;	
 	}
 	.cell {
