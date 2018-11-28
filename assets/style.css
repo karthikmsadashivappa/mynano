@@ -134,7 +134,29 @@
     background-position: top;
     }
 
+@media only screen and (min-width: 360px) and (max-width: 400px) {
 
+    #header {
+        background: url(../assets/images/bgmobile.png) no-repeat center center fixed;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    #header {
+        background: url(../assets/images/bgmobile.png) no-repeat center center fixed;
+    }
+
+}
+
+@media only screen and (max-width: 580px) {
+
+    #header {
+        background: url(../assets/images/bgmobile.png) no-repeat center center fixed;
+    }
+
+}
  .navbar-brand>img {
      display: block;
 }
