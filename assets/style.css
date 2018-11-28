@@ -132,6 +132,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top;
+    width: 100%;
     }
 
  .navbar-brand>img {
