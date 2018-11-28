@@ -130,7 +130,7 @@
   video {
     background-image: url(../assets/images/bgoverlay.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: top;
     }
 
