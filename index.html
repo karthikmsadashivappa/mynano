@@ -2315,7 +2315,7 @@
                 $('#myvideo').on('loadstart', function (event) {
     $(this).addClass('loading');
   });
-  $('#video_id').on('canplay', function (event) {
+  $('#myvideo').on('canplay', function (event) {
     $(this).removeClass('loading');
     $(this).attr('poster', '');
   });
