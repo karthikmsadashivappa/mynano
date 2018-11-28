@@ -127,10 +127,6 @@
      background: rgba(0, 0, 0, 0.45);
 }
 
-.banner-video-wrapper {
-    background:  url('../assets/images/bgoverlay.png');
- }
- 
  .navbar-brand>img {
      display: block;
 }
