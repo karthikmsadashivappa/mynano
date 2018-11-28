@@ -207,6 +207,10 @@ p {
     box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
 }
 
+#how-it-works .owl-dots {
+	margin-top: 30px;
+}
+
 .line-break {
     width: 15%;
     height: 1px;
